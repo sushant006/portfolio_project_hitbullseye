@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+body {
+    background-color: rgb(165, 165, 165);
+}
+#navbar{
+    display:flex;
+    height: auto;
+    margin-right: 0%;
+    padding: 0.3125em 1.5625em 25px 0.3125em 1.5625em;
+    justify-content: space-between;
+    background-color: white;
+}
+#aboutme{
+    text-align: center;
+}
+#firsthr{
+    border-top: 2px dashed gray;
+}
+#secondpart{
+    padding: 0px;
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    font-family: 'PT Sans', sans-serif;
+   
+}
+#leftpart{
+    padding: 20px 15px 20px 15px;
+    margin: 25px;
+    background-color: white;
+    align-content: center;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+}
+#rightpart{
+    border-radius: 15px;
+    padding: 10px 15px 10px 15px;
+    margin:20px;
+    align-content: center;
+}
+#edu{
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 15px 20px 15px;
+}
+#work{
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 15px 20px 15px;
+}
+#pd{
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 15px 20px 15px; 
+}
+#techy{
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 15px 20px 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#profilepic{
+    border-radius: 50%;
+    height: 35vh;
+    width: 35vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#leftpartnav{
+    display:flex;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#rightpartnav{
+    display:flex;
+    margin-right: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+#pplogo{
+    height:7vh;
+    width: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#notilogo{
+    height:3vh;
+    width: auto;
+    margin-top: 14px;
+    margin-right: 5px;
 }
